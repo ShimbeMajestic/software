@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/hero.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+header .btn {
+    padding: 12px 24px;
+    color: #fff;
+    background: #ff6f61;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header .btn:hover {
+    background: #ff3d3d;
+    transform: scale(1.05);
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #262626;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff6f61;
+}
+
+#introduction p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    color: #ccc;
+}
+
+/* Impact Areas Section */
+.impact-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.impact-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    text-align: left;
+    color: #fff;
+    transition: transform 0.3s;
+}
+
+.impact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(255, 111, 97, 0.2);
+}
+
+.impact-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.impact-card h3 {
+    font-size: 1.4em;
+    margin-top: 10px;
+    color: #ff6f61;
+}
+
+/* Contributions Section */
+.contribution-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.contribution-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contribution-card h3 {
+    font-size: 1.4em;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.contribution-card p {
+    color: #ccc;
+    font-size: 1em;
+}
+
+.contribution-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(255, 111, 97, 0.3);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
