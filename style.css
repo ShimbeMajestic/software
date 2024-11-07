@@ -12,6 +12,12 @@ body {
     line-height: 1.6;
 }
 
+/* Container for consistent width */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* Header */
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./Images/hero.jpg') center/cover no-repeat;
@@ -143,4 +149,22 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+    header p {
+        font-size: 1.1em;
+    }
+    .impact-grid, .contribution-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .impact-card, .contribution-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }
