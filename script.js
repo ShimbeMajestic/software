@@ -3,10 +3,10 @@ const header = document.getElementById('header');
 
 // Array of background image URLs
 const backgrounds = [
-    '/Images/back1.png',
-    '/Images/back2.png',
-    '/Images/back3.png',
-    '/Images/back4.png', // Add more images as needed
+    './Images/back1.png',
+    './Images/back2.png',
+    './Images/back3.png',
+    './Images/back4.png', // Add more images as needed
 ];
 
 let currentBackground = 0;
